@@ -1,11 +1,11 @@
 body {
-    background-color:#171717;
+    background-color: #171717;
     font-size: 18px;
-    font-family: "Handlee" cursive;
+    font-family: "Handlee"cursive;
 }
 
-.tarjeta {
-    background-color:white;
+.card {
+    background-color: white;
     width: 500px;
     height: 300px;
     margin: auto;
@@ -21,17 +21,11 @@ h1 {
     font-family: 'Handlee', cursive;
 }
 
-.parrafo {
+.parragraph {
     float: left;
     width: 50%;
     font-family: 'Handlee', cursive;
 }
-
-/*
-.header{
-    overflow: hidden;
-}
-*/
 
 .header h1 {
     margin: 0;
@@ -43,22 +37,22 @@ h1 {
     max-width: 60px;
 }
 
-.imagen {
+.image {
     position: relative;
     top: 200%;
 }
 
-.formulario {
+.form {
     float: right;
     width: 50%;
 }
 
-.formulario input {
+.form input {
     display: block;
     text-align: right;
 }
 
-.formulario input [type=text] {
+.form input [type=text] {
     border: none;
     width: 250px;
     border-bottom: 3px solid grey;
@@ -66,7 +60,7 @@ h1 {
     text-align: center;
 }
 
-.parrafo-formulario [type=text] {
+.formulary-paragraph [type=text] {
     border-bottom: 1px solid grey;
     border-top: none;
     border-right: none;
@@ -75,19 +69,19 @@ h1 {
     width: 180px;
     margin-bottom: 10px;
     padding: 5px;
-   
+
 }
 
-.parrafo-formulario  {
-     overflow: hidden;
+.formulary-paragraph {
+    overflow: hidden;
 }
 
-.boton {
+.bottom {
     padding: 10px;
     text-align: center;
 }
 
-.boton input [type=submit] {  
+.bottom input [type=submit] {
     border-bottom: 1px solid gray;
     text-align: center;
     border: none;
